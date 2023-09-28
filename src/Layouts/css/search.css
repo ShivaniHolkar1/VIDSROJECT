@@ -1,0 +1,110 @@
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    table {
+    border: 2px solid forestgreen;
+    width: 800px;
+    height: 200px;
+    }
+    
+    th {
+    border-bottom: 1px solid black;
+    }
+    
+    td {
+    text-align: center;
+    }
+    
+
+
+
+    
+
+.autocomplete {
+    position: relative;
+    
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 57%;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 20%;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .suggestion {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestion:hover {
+    background-color: #f2f2f2;
+  }
+  
+  
+  
+  .image-container {
+     position: fixed;
+     
+    
+  }
+  
+  .float-image {
+    position: absolute;
+    top:55%;
+    right: 0;
+    width:17%;
+    height: 40%;
+    margin-right: 5%;
+    
+    /* width: 15%;
+    height: 15%; */
+    z-index: 1;
+  }
+  
+  .full-image {
+    width: 97%;
+    height: 40%;
+    
+    margin-top:25%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .p-fluid .p-inputtext {
+    
+    border-radius: 2px !important;
+    width: 660px!important;
+  }
